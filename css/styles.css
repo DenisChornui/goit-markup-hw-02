@@ -187,7 +187,7 @@ body {
 }
 
 .team-name {
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--link-cl);
 }
@@ -219,6 +219,7 @@ body {
 /* Filter section */
 .filter-bt {
     font-family: var(--main-ft);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -237,7 +238,7 @@ body {
 /* Portfoilio section */
 
 .portfolio-title-two {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -247,4 +248,5 @@ body {
 .portfolio-tx-two {
     color: var(--main-txt-cl);
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
