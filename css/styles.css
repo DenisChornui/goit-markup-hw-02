@@ -21,7 +21,7 @@
 body {
     font-family: var(--main-ft);
     font-size: 16px;
-    list-style: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.2em;
     color: var(--main-txt-cl);
     background-color: var(--background-cl);
@@ -48,7 +48,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -61,7 +60,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -120,7 +118,7 @@ body {
 }
 
 .hero-btn {
-    background-color: #4D5AE5;
+    background-color: var(--logo-cl);
     font-family: var(--main-ft);
     font-weight: 500;
     font-size: 16px;
@@ -190,7 +188,7 @@ body {
 }
 
 .team-list-iteam {
-    background-color: #FFFFFF;
+    background-color: var(--background-cl);
 }
 
 .team-name {
@@ -218,6 +216,11 @@ body {
 }
 .footer-logo {
     color: var(--color-cloud);
+}
+
+.footer-tx {
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /**
