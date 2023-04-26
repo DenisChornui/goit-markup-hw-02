@@ -78,10 +78,13 @@ body {
     color: var(--link-cl);
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-link:hover,
 .header-link:focus {
     color: var(--activ-cl);
-    font-style: normal;
 }
 
 .header-add-mail {
@@ -96,7 +99,6 @@ body {
 .header-add-mail:hover,
 .header-add-mail:focus {
     color: var(--activ-cl);
-    font-style: normal;
 }
 
 /**
