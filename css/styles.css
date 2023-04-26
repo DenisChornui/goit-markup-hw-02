@@ -83,19 +83,17 @@ body {
     color: var(--activ-cl);
 }
 
-.header-address {
+.header-add-mail {
     font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
     line-height: 1.5;
     font-style: normal;
     color: var(--main-txt-cl);
 }
 
-.header-address .header-link {
-    color: var(--main-txt-cl);
-}
-
-.header-mail:hover,
-.header-mail:focus {
+.header-add-mail:hover,
+.header-add-mail:focus {
     color: var(--activ-cl);
 }
 
