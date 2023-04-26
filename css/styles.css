@@ -81,20 +81,22 @@ body {
 .header-link:hover,
 .header-link:focus {
     color: var(--activ-cl);
+    font-style: normal;
 }
 
 .header-add-mail {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    font-style: normal;
     color: var(--main-txt-cl);
 }
 
 .header-add-mail:hover,
 .header-add-mail:focus {
     color: var(--activ-cl);
+    font-style: normal;
 }
 
 /**
